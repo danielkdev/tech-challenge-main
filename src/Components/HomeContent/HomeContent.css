@@ -1,0 +1,61 @@
+.HomeContentClass{
+    background-color: #222222;
+}
+.boxContent{
+    background-color: white;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.BoxTextClass{
+    font-family: "Poppins";
+    text-align: left;
+    color: black !important;
+    /* font-weight: 100 !important; */
+}
+.rowClass{
+ justify-content: center !important;
+    display:flex !important;
+}
+.headingClassBox{
+    font-family: "Poppins";
+}
+@media only screen and (max-width: 600px) {
+    .columnDiv{
+        display: block !important;
+        max-width: 81% !important;
+    }
+    .boxContent{
+        margin-bottom: 20px;
+        width: 100%;
+        
+    }
+    .BoxTextClass{
+        font-family: "Poppins";
+        text-align: left;
+        color: black !important;
+        font-size: 12px !important;
+    }
+    .headingClassBox{
+        font-family: "Poppins";
+        font-size: 22px !important;
+        font-weight: 100;
+    }
+    .logoImageClass{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .headingClass{
+        font-size: 22px !important;
+        font-weight: 100;
+    }
+    .underlineClass{
+        width:140px !important;
+    }
+    .textClass{
+        font-size: 12px !important;
+    }
+}

@@ -1,0 +1,60 @@
+.contactLeftMainDiv{
+    background-color: #222222;
+    color: white;
+    height: 100vh;
+}
+.headingClass{
+    color: white !important;
+    font-family: "Poppins";
+    text-align: left;
+    margin-bottom: 0px !important;
+}
+.textClass{
+    font-family: "Poppins";
+    text-align: left;
+    color: white !important;
+    font-weight: 100 !important;
+}
+.textItemsClass{
+    padding: 70px;
+}
+
+.imageClass1{
+    justify-content: flex-end;
+    display: flex;
+    padding: 66px;
+}
+.underlineClass{
+    border:2px Solid #ebf79d;
+    width:160px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.headerClassRow{
+    display: none !important;
+}
+.btnClass{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .textItemsClass{
+        padding: 20px;
+    }
+    .btnClass{
+        display: inline-block;
+    }
+    .imageClass1{
+        display: none;
+    }
+    .headerClassRow{
+        display: block !important;
+    }
+    .contactRightMainDiv2{
+        justify-content: flex-end;
+        display: flex;
+        padding: 20px;
+    }
+    .homeBtnClass{
+        margin:0px 20px -28px 15px !important;
+    }
+}

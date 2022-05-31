@@ -1,0 +1,19 @@
+.contactMobile{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    /* .ContactLeftClass{
+        max-width: 100% !important;
+        display: block !important;
+    }
+    .ContactRightClass{
+        max-width: 100% !important;
+        display: block !important;
+    } */
+    .contactWeb{
+        display: none !important;
+    }
+    .contactMobile{
+        display: block;
+    }
+}
